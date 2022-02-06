@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    src: url(../fonts/JosefinSans-SemiBold.ttf);
+    font-family: josefin;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 207, 6);
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 50px;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+#topl{
+    display: flex;
+    align-items: center;
+}    
+#topl h1{
+    color: rgb(131,55,26);
+    font-family: josefin;
+    letter-spacing: .1px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+#topl img{
+    height: 40px;
+}
+#topr img{
+    height: 40px;
+}
+#top img:hover{
+    cursor: pointer;
+}
+#center #a{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-family: josefin;
+    letter-spacing: -20px;
+    color: #fff;
+    font-size: 420px;
+}
+#center #b{
+    position: absolute;
+    top: 25%;
+    left: 65.5%;
+    font-family: josefin;
+    letter-spacing: -20px;
+    color: #fff;
+    font-size: 420px;
+    z-index: 99;
+}
+#center #a1{
+    position: absolute;
+    left: 45%;
+    box-shadow: 0px 30px rgb(0,0,0.1px);
+}
+#center #a2{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    height: 100px;
+}
+#bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 6%;
+    width: 30%;
+    height: 30%;
+    padding: 20px 20px;
+}
+#bottom h1{
+    font-family: josefin;
+    font-size: 50px;
+    letter-spacing: -1px;
+    color: rgb(100, 50, 31);
+}
+#bottom h2{
+    margin-top: 10px;
+    font-family: josefin;
+    letter-spacing: -1px;
+    color: rgb(100, 50, 31);
+}
+#bottom h3{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: josefin;
+    letter-spacing: -1px;
+    color: rgb(100, 50, 31);
+}
+#button{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    width: 160px;
+    height: 45px;
+    background-color: rgb(100, 50, 31);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(110, 110, 110, 0.884);
+}
+#button h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 20px;
+    font-family: josefin;
+}
+#button:hover{
+    cursor: pointer;
+}
+#btmr{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+    width: 350px;
+    height: 30px;
+}
+#btmr #heart{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(100, 50, 31);
+}
+#btmr #txt1{
+    letter-spacing: -1px;
+    font-family: josefin;
+    color: rgb(100, 50, 31);
+    padding-left: 5px;
+}
+#btmr #dwnld{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(100, 50, 31);
+    padding-left: 30px;
+}
+#btmr #txt2{
+    letter-spacing: -1px;
+    font-family: josefin;
+    color: rgb(100, 50, 31);
+    padding-left: 5px;
+}
+#btmr #txt1:hover{
+    cursor: pointer;
+}
+#btmr #txt2:hover{
+    cursor: pointer;
+}
